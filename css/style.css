@@ -1,0 +1,71 @@
+/*
+
+Crear un diseño CSS para elementos H1 y p el cual este centrado y con letra cursiva
+
+*/
+
+h1, p {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer li {
+    margin-bottom: 10px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.footer a:hover {
+    color: #ff0000;
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 10px;
+    }
+    .footer h3 {
+        font-size: 20px;
+    }
+    .footer p {
+        font-size: 16px;
+    }
+    .footer a {
+        font-size: 16px;
+    }
+}

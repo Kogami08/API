@@ -10951,3 +10951,67 @@ if (values.length > 0) {
 }
 
 
+// Convertir el resultado a formato JSON
+const jsonData = JSON.stringify(values, null, 2);
+
+// Especificar la ruta y el nombre del archivo donde se guardará el resultado
+const filePath = 'C://ConvertSharepoint//JSON/resultado.json';
+
+// Guardar el resultado en el archivo
+fs.writeFile(filePath, jsonData, (err) => {
+  if (err) {
+    console.error('Error al guardar el archivo:', err);
+  } else {
+    console.log('Archivo guardado exitosamente en:', filePath);
+  }
+});
+
+
+
+
+
+//vamos a realizar una conexion e insertar datos en la tabla de sql
+
+const sql = require('mssql');
+
+// Configurar los datos de conexión a SQL Server
+const config = {
+  server: 'SACNTE1863.americas.ad.flextronics.com',
+  user: 'sqlSPCWS',
+  password: 'WS.sql123',
+  database: 't_SPC_Project_221_2nd',
+  options: {
+    encrypt: true, // Habilitar el cifrado
+    trustServerCertificate: true, // Desactivar la verificación del certificado
+  },
+};
+
+
+// Función para insertar los valores en SQL Server
+async function insertValuesToSql(values) {
+  try {
+    // Conectarse a la base de datos
+    await sql.connect(config);
+
+    // Iterar sobre los valores y ejecutar las consultas INSERT
+    for (const value of values) {
+      const { Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, ZhuhaiCEC, ZhuhaiLS, Total } = value;
+
+      // Consulta SQL para insertar los valores en la tabla "linksharepoint"
+      const query = `INSERT INTO linksharepoint (Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, Zhuhai_CEC, Zhuhai_LifeStyle, Total) VALUES ('${Aguascalientes}', ${Austin}, '${Title}' , '${Althofen}', '${Fuyong}', '${Jaguariuna}', '${Manaus}', '${PenangP1}', '${PenangP5}', '${Sorocaba}', '${SuHong}', '${SuQian}', '${Tczew}', '${ZhuhaiCEC}', '${ZhuhaiLS}', '${Total}' )`;
+
+      // Ejecutar la consulta
+      await sql.query(query);
+    }
+
+    console.log('Valores insertados correctamente en SQL Server.');
+  } catch (err) {
+    console.error('Error al insertar los valores en SQL Server:', err);
+  } finally {
+    // Cerrar la conexión a la base de datos
+    sql.close();
+  }
+}
+
+// Llamar a la función para insertar los valores en SQL Server
+insertValuesToSql(values);

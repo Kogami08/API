@@ -79,7 +79,6 @@ convertXmlToJson(xmlFilePath);
 
 
 //Leer correctamente el archivo JSON y reflejarlos en la consola
-
 // Tu fragmento de JSON
 const data = {
   "feed": {
@@ -10970,8 +10969,9 @@ fs.writeFile(filePath, jsonData, (err) => {
 
 
 
-//vamos a realizar una conexion e insertar datos en la tabla de sql
+//anteriormente al hacer esto se tiene que instalar el paquete en node.js con el comando npm install mssql
 
+//vamos a realizar una conexion e insertar datos en la tabla de sql
 const sql = require('mssql');
 
 // Configurar los datos de conexión a SQL Server
@@ -10987,21 +10987,50 @@ const config = {
 };
 
 
-// Función para insertar los valores en SQL Server
 async function insertValuesToSql(values) {
   try {
     // Conectarse a la base de datos
     await sql.connect(config);
+
+    // Borrar todos los elementos de la tabla "linksharepoint"
+    const deleteQuery = 'DELETE FROM linksharepoint';
+    await sql.query(deleteQuery);
 
     // Iterar sobre los valores y ejecutar las consultas INSERT
     for (const value of values) {
       const { Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, ZhuhaiCEC, ZhuhaiLS, Total } = value;
 
       // Consulta SQL para insertar los valores en la tabla "linksharepoint"
-      const query = `INSERT INTO linksharepoint (Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, Zhuhai_CEC, Zhuhai_LifeStyle, Total) VALUES ('${Aguascalientes}', ${Austin}, '${Title}' , '${Althofen}', '${Fuyong}', '${Jaguariuna}', '${Manaus}', '${PenangP1}', '${PenangP5}', '${Sorocaba}', '${SuHong}', '${SuQian}', '${Tczew}', '${ZhuhaiCEC}', '${ZhuhaiLS}', '${Total}' )`;
+      const insertQuery = `
+      INSERT INTO linksharepoint 
+      (Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, Zhuhai_CEC, Zhuhai_LifeStyle, Total)
+      VALUES
+      (@Aguascalientes, @Austin, @Title, @Althofen, @Fuyong, @Jaguariuna, @Manaus, @PenangP1, @PenangP5, @Sorocaba, @SuHong, @SuQian, @Tczew, @ZhuhaiCEC, @ZhuhaiLS, @Total)
+      `;
 
-      // Ejecutar la consulta
-      await sql.query(query);
+      // Crear una declaración preparada
+      const preparedStatement = new sql.PreparedStatement();
+      preparedStatement.input('Aguascalientes', sql.NVarChar);
+      preparedStatement.input('Austin', sql.NVarChar);
+      preparedStatement.input('Title', sql.NVarChar);
+      preparedStatement.input('Althofen', sql.NVarChar);
+      preparedStatement.input('Fuyong', sql.NVarChar);
+      preparedStatement.input('Jaguariuna', sql.NVarChar);
+      preparedStatement.input('Manaus', sql.NVarChar);
+      preparedStatement.input('PenangP1', sql.NVarChar);
+      preparedStatement.input('PenangP5', sql.NVarChar);
+      preparedStatement.input('Sorocaba', sql.NVarChar);
+      preparedStatement.input('SuHong', sql.NVarChar);
+      preparedStatement.input('SuQian', sql.NVarChar);
+      preparedStatement.input('Tczew', sql.NVarChar);
+      preparedStatement.input('ZhuhaiCEC', sql.NVarChar);
+      preparedStatement.input('ZhuhaiLS', sql.NVarChar);
+      preparedStatement.input('Total', sql.NVarChar);
+
+      // Ejecutar la declaración preparada
+      await preparedStatement.prepare(insertQuery);
+      await preparedStatement.execute(value);
+      await preparedStatement.unprepare();
     }
 
     console.log('Valores insertados correctamente en SQL Server.');

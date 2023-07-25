@@ -91,13 +91,13 @@ const data = {
       "xmlns:gml": "http://www.opengis.net/gml"
     },
     "id": [
-      "6b1d3db6-d705-4955-b67f-708ebb70c3be"
+      "941d1716-b0a4-4d84-9755-09d2bb57c67e"
     ],
     "title": [
       ""
     ],
     "updated": [
-      "2023-07-21T06:04:00Z"
+      "2023-07-25T14:54:43Z"
     ],
     "entry": [
       {
@@ -105,7 +105,7 @@ const data = {
           "m:etag": "\"383\""
         },
         "id": [
-          "a00a7d07-f950-4272-bec7-264cff13d4c3"
+          "86fed847-2c8a-4c36-af4c-8e3730421da2"
         ],
         "category": [
           {
@@ -239,7 +239,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -490,7 +490,7 @@ const data = {
           "m:etag": "\"422\""
         },
         "id": [
-          "fcd23182-3085-4f2e-a06c-98ab26d0bec0"
+          "77ab04b6-b908-4efe-afdc-68adc4315229"
         ],
         "category": [
           {
@@ -624,7 +624,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -872,10 +872,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"411\""
+          "m:etag": "\"413\""
         },
         "id": [
-          "6ebd6004-cb72-4cf9-a01a-3445a414abca"
+          "c1b1ab08-fda4-4d00-88f3-f114d5d38c9a"
         ],
         "category": [
           {
@@ -1009,7 +1009,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -1067,7 +1067,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-06-27T13:45:17Z",
+                    "_": "2023-07-24T11:43:57Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -1098,7 +1098,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "411.0"
+                  "413.0"
                 ],
                 "d:Attachments": [
                   {
@@ -1141,7 +1141,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "46.79",
+                    "_": "48.21",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -1205,7 +1205,7 @@ const data = {
                 ],
                 "d:Penang_x0028_P1_x0029_": [
                   {
-                    "_": "40",
+                    "_": "60",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -1260,7 +1260,7 @@ const data = {
           "m:etag": "\"363\""
         },
         "id": [
-          "12534d07-4996-4f83-aa35-541fa266bab5"
+          "774309a3-9111-4b8c-bcd7-fc0c05a1460c"
         ],
         "category": [
           {
@@ -1394,7 +1394,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -1645,7 +1645,7 @@ const data = {
           "m:etag": "\"376\""
         },
         "id": [
-          "8149227c-29be-4431-b404-9dfeed5c87f9"
+          "515c2d91-a4ff-4f2b-ab14-d3a8fde1c70e"
         ],
         "category": [
           {
@@ -1779,7 +1779,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -2030,7 +2030,7 @@ const data = {
           "m:etag": "\"385\""
         },
         "id": [
-          "7f82e188-e780-42e4-a100-2b7d407e740b"
+          "225c7013-6612-42c1-a48f-4a83bbdc68c9"
         ],
         "category": [
           {
@@ -2164,7 +2164,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -2415,7 +2415,7 @@ const data = {
           "m:etag": "\"469\""
         },
         "id": [
-          "a8b688c9-f6e5-4f86-ae3d-ab281ee6a881"
+          "4f9aba57-688d-487b-a222-38a73ec7d0a1"
         ],
         "category": [
           {
@@ -2549,7 +2549,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -2797,10 +2797,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"401\""
+          "m:etag": "\"405\""
         },
         "id": [
-          "f7b3e1e7-d4b7-4d84-9cef-18c828ea3564"
+          "c79164df-0bf1-4b8d-923f-a1d9589f2241"
         ],
         "category": [
           {
@@ -2934,7 +2934,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -2992,7 +2992,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-07-18T14:04:46Z",
+                    "_": "2023-07-25T11:16:58Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -3023,7 +3023,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "401.0"
+                  "405.0"
                 ],
                 "d:Attachments": [
                   {
@@ -3050,7 +3050,7 @@ const data = {
                 ],
                 "d:Aguascalientes": [
                   {
-                    "_": "50",
+                    "_": "60",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3066,7 +3066,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "88.21",
+                    "_": "89.64",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3154,7 +3154,7 @@ const data = {
                 ],
                 "d:Manaus": [
                   {
-                    "_": "60",
+                    "_": "70",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3185,7 +3185,7 @@ const data = {
           "m:etag": "\"677\""
         },
         "id": [
-          "34db5ff6-99c7-4014-8438-52e85762a128"
+          "ba06bace-60ac-43a6-b055-1ea88cc112da"
         ],
         "category": [
           {
@@ -3319,7 +3319,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -3572,10 +3572,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"408\""
+          "m:etag": "\"412\""
         },
         "id": [
-          "794789b1-ad78-4933-b73e-0936cb765bc5"
+          "a0f3d353-c7cc-4282-83ce-0aa266d867ed"
         ],
         "category": [
           {
@@ -3709,7 +3709,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -3767,7 +3767,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-07-17T14:02:19Z",
+                    "_": "2023-07-25T11:16:59Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -3798,7 +3798,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "408.0"
+                  "412.0"
                 ],
                 "d:Attachments": [
                   {
@@ -3825,7 +3825,7 @@ const data = {
                 ],
                 "d:Aguascalientes": [
                   {
-                    "_": "50",
+                    "_": "60",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3841,7 +3841,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "50.71",
+                    "_": "55",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3905,7 +3905,7 @@ const data = {
                 ],
                 "d:Penang_x0028_P1_x0029_": [
                   {
-                    "_": "25",
+                    "_": "75",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -3957,10 +3957,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"539\""
+          "m:etag": "\"546\""
         },
         "id": [
-          "a4612d8d-ac08-4d61-b016-b61175f0f542"
+          "04ba63b9-828f-45c0-a887-77d3330c3b42"
         ],
         "category": [
           {
@@ -4094,7 +4094,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -4152,7 +4152,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-07-20T15:15:34Z",
+                    "_": "2023-07-25T12:21:14Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -4183,7 +4183,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "539.0"
+                  "546.0"
                 ],
                 "d:Attachments": [
                   {
@@ -4226,7 +4226,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "70.86",
+                    "_": "73.71",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -4314,7 +4314,7 @@ const data = {
                 ],
                 "d:Manaus": [
                   {
-                    "_": "10",
+                    "_": "50",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -4345,7 +4345,7 @@ const data = {
           "m:etag": "\"367\""
         },
         "id": [
-          "d18d01fe-7543-49ca-a749-b88cfd2fd9bb"
+          "c053bee9-eb49-4b87-a872-3bacc29f5799"
         ],
         "category": [
           {
@@ -4479,7 +4479,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -4730,7 +4730,7 @@ const data = {
           "m:etag": "\"443\""
         },
         "id": [
-          "a2d63f36-5749-456e-af9c-615c946f97f9"
+          "ba3ead14-ff63-4b14-98f8-8b6936d9c1fb"
         ],
         "category": [
           {
@@ -4864,7 +4864,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -5115,7 +5115,7 @@ const data = {
           "m:etag": "\"1084\""
         },
         "id": [
-          "b9e77c6e-c068-444f-9ae2-54bbad9dd78a"
+          "dfe7304f-c7c2-4a57-bd75-6893219b7f07"
         ],
         "category": [
           {
@@ -5249,7 +5249,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -5500,7 +5500,7 @@ const data = {
           "m:etag": "\"398\""
         },
         "id": [
-          "80b5fbd1-4efc-4560-837e-81dab2582556"
+          "0596d09a-7640-4549-a6cc-a9c1b2c59c73"
         ],
         "category": [
           {
@@ -5634,7 +5634,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -5885,7 +5885,7 @@ const data = {
           "m:etag": "\"396\""
         },
         "id": [
-          "6bb4e3d1-5afd-4997-9e31-704ae310301b"
+          "e5865a14-1e3c-4efc-8383-a27d68be6825"
         ],
         "category": [
           {
@@ -6019,7 +6019,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -6270,7 +6270,7 @@ const data = {
           "m:etag": "\"388\""
         },
         "id": [
-          "160444f4-698c-4db8-a738-000b10bc803b"
+          "f5e984c3-8ebb-41e2-81c7-34a5d008b5d2"
         ],
         "category": [
           {
@@ -6404,7 +6404,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -6655,7 +6655,7 @@ const data = {
           "m:etag": "\"379\""
         },
         "id": [
-          "257d35a2-bb12-4d7f-9a35-452535954814"
+          "9aac54e6-006f-476c-9a32-ca74c9262db3"
         ],
         "category": [
           {
@@ -6789,7 +6789,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -7040,7 +7040,7 @@ const data = {
           "m:etag": "\"395\""
         },
         "id": [
-          "dcfbd32d-cbeb-412f-be12-5f908d232e62"
+          "056d39bc-e319-4d26-b415-55cc2779c7e6"
         ],
         "category": [
           {
@@ -7174,7 +7174,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -7425,7 +7425,7 @@ const data = {
           "m:etag": "\"388\""
         },
         "id": [
-          "86f26005-29cf-4311-bd18-33f3424af02a"
+          "bd2fe876-8fcb-4ffd-abc4-ccaac8b6c899"
         ],
         "category": [
           {
@@ -7559,7 +7559,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -7810,7 +7810,7 @@ const data = {
           "m:etag": "\"376\""
         },
         "id": [
-          "459a7dcf-f5d5-4628-92b5-7b4db1199610"
+          "9874efe8-557a-4ff9-a6a9-e27ec4c3d6a7"
         ],
         "category": [
           {
@@ -7944,7 +7944,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -8195,7 +8195,7 @@ const data = {
           "m:etag": "\"400\""
         },
         "id": [
-          "f9452aea-ca01-4cbe-95c1-1d14f67266d8"
+          "5cdc4ded-3fdb-43c7-b3df-73e386f300c9"
         ],
         "category": [
           {
@@ -8329,7 +8329,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -8580,7 +8580,7 @@ const data = {
           "m:etag": "\"409\""
         },
         "id": [
-          "bcb7c6a9-6eca-4d9f-9e3c-8c715473c522"
+          "43e11f25-d36f-47b8-99ae-ef3a9644a808"
         ],
         "category": [
           {
@@ -8714,7 +8714,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -8965,7 +8965,7 @@ const data = {
           "m:etag": "\"390\""
         },
         "id": [
-          "58d05248-7ac9-4568-8597-78cf8d26c681"
+          "3759ffff-e911-41bc-9a6d-e18ff32105b7"
         ],
         "category": [
           {
@@ -9099,7 +9099,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -9350,7 +9350,7 @@ const data = {
           "m:etag": "\"366\""
         },
         "id": [
-          "cd1d6ea8-ecc3-4b91-b7a4-d68b6fa7aa29"
+          "b24b6814-e4ec-4984-a11c-45b9cf60c93b"
         ],
         "category": [
           {
@@ -9484,7 +9484,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -9732,10 +9732,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"2700\""
+          "m:etag": "\"2712\""
         },
         "id": [
-          "31e30c5d-6d08-4b8c-a45c-ff0652538c1c"
+          "bd83c450-f121-4953-b398-1dbac02e2794"
         ],
         "category": [
           {
@@ -9869,7 +9869,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -9927,7 +9927,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-07-20T15:15:37Z",
+                    "_": "2023-07-25T12:21:18Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -9958,7 +9958,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "2700.0"
+                  "2712.0"
                 ],
                 "d:Attachments": [
                   {
@@ -9985,7 +9985,7 @@ const data = {
                 ],
                 "d:Aguascalientes": [
                   {
-                    "_": "84",
+                    "_": "85",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10001,7 +10001,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "74.57",
+                    "_": "75",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10065,7 +10065,7 @@ const data = {
                 ],
                 "d:Penang_x0028_P1_x0029_": [
                   {
-                    "_": "56",
+                    "_": "59",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10089,7 +10089,7 @@ const data = {
                 ],
                 "d:Manaus": [
                   {
-                    "_": "70",
+                    "_": "72",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10117,10 +10117,10 @@ const data = {
       },
       {
         "$": {
-          "m:etag": "\"36\""
+          "m:etag": "\"38\""
         },
         "id": [
-          "80474501-0020-4087-b8ed-d7089c82e4b3"
+          "dfa0e670-b74b-4fdf-9d94-3f2558328771"
         ],
         "category": [
           {
@@ -10254,7 +10254,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -10312,7 +10312,7 @@ const data = {
                 ],
                 "d:Modified": [
                   {
-                    "_": "2023-06-16T14:44:29Z",
+                    "_": "2023-07-24T11:43:59Z",
                     "$": {
                       "m:type": "Edm.DateTime"
                     }
@@ -10343,7 +10343,7 @@ const data = {
                   }
                 ],
                 "d:OData__UIVersionString": [
-                  "36.0"
+                  "38.0"
                 ],
                 "d:Attachments": [
                   {
@@ -10386,7 +10386,7 @@ const data = {
                 ],
                 "d:Total": [
                   {
-                    "_": "6",
+                    "_": "6.71",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10402,7 +10402,7 @@ const data = {
                 ],
                 "d:SuHong": [
                   {
-                    "_": "0",
+                    "_": "10",
                     "$": {
                       "m:type": "Edm.Double"
                     }
@@ -10505,7 +10505,7 @@ const data = {
           "m:etag": "\"28\""
         },
         "id": [
-          "64f92d63-b151-43f0-90bb-654428617b83"
+          "d475a700-f69e-4380-8efa-16bf5a9a4a62"
         ],
         "category": [
           {
@@ -10639,7 +10639,7 @@ const data = {
           ""
         ],
         "updated": [
-          "2023-07-21T06:04:00Z"
+          "2023-07-25T14:54:43Z"
         ],
         "author": [
           {
@@ -10887,7 +10887,7 @@ const data = {
       }
     ]
   }
-  };
+};
 
 
 function findValues(data) {
@@ -10913,7 +10913,8 @@ function findValues(data) {
         
         
         // Si existen todas las propiedades, obtener sus valores
-        const titleValue = mProperties[0]['d:Title'][0]['_'];
+        const titleEntry = mProperties[0]['d:Title'][0];
+        const titleValue = titleEntry.hasOwnProperty('_') ? titleEntry['_'] : titleEntry;
         const aguascalientesValue = mProperties[0]['d:Aguascalientes'][0]['_'];
         const AlthofenValue = mProperties[0]['d:Althofen'][0]['_'];
         const austinValue = mProperties[0]['d:Austin'][0]['_'];
@@ -10931,7 +10932,7 @@ function findValues(data) {
         const TotalValue = mProperties[0]['d:Total'][0]['_'];
 
         // Agregar un objeto con los valores de "Aguascalientes", "Austin" y "Title" al arreglo valuesArray
-        valuesArray.push({Title: titleValue, Aguascalientes: aguascalientesValue, Althofen: AlthofenValue, Austin: austinValue, Fuyong: FuyongValue, Jaguariuna: JaguariunaValue, Manaus: ManausValue, PenangP1: PenangP1Value, PenangP5: PenangP5Value, Sorocaba: SorocabaValue, SuHong: SuHongValue, SuQian: SuQianValue, Tczew: TczewValue, ZhuhaiCEC: ZhuhaiCECValue, ZhuhaiLS: ZhuhaiLSValue, Total: TotalValue });
+        valuesArray.push({Title: titleValue , Aguascalientes: aguascalientesValue, Althofen: AlthofenValue, Austin: austinValue, Fuyong: FuyongValue, Jaguariuna: JaguariunaValue, Manaus: ManausValue, PenangP1: PenangP1Value, PenangP5: PenangP5Value, Sorocaba: SorocabaValue, SuHong: SuHongValue, SuQian: SuQianValue, Tczew: TczewValue, ZhuhaiCEC: ZhuhaiCECValue, ZhuhaiLS: ZhuhaiLSValue, Total: TotalValue });
       }
     }
   }
@@ -10954,7 +10955,7 @@ if (values.length > 0) {
 const jsonData = JSON.stringify(values, null, 2);
 
 // Especificar la ruta y el nombre del archivo donde se guardará el resultado
-const filePath = 'C://ConvertSharepoint//JSON/resultado.json';
+const filePath = 'C://ConvertSharepoint//JSON/resultadoProduccion.json';
 
 // Guardar el resultado en el archivo
 fs.writeFile(filePath, jsonData, (err) => {

@@ -1,0 +1,12 @@
+
+body {
+    background: linear-gradient(rgba(212, 59, 59,rgba(253, 10, 10, 0.5),0,0.5)), url(../img/imagen1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}

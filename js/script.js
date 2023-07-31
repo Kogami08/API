@@ -39,7 +39,7 @@ const fs = require('fs');
 const { parseString } = require('xml2js');
 
 // Ruta del archivo XML de entrada
-const xmlFilePath = 'C://ConvertSharepoint//descarga (2).xml';
+const xmlFilePath = 'C://ConvertSharepoint//descarga.xml';
 
 // Función para leer el archivo XML y convertirlo a JSON
 function convertXmlToJson(xmlFilePath) {
@@ -10988,6 +10988,8 @@ const config = {
 };
 
 
+//Ahora trabajar con los parsers y funcionalidad en conjunto del sql
+
 async function insertValuesToSql(values) {
   try {
     // Conectarse a la base de datos
@@ -11001,7 +11003,7 @@ async function insertValuesToSql(values) {
     for (const value of values) {
       const { Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, ZhuhaiCEC, ZhuhaiLS, Total } = value;
 
-      // Consulta SQL para insertar los valores en la tabla "linksharepoint"
+      // Consulta SQL para insertar los valores en la tabla "linksharepoint" y hacer parser de los valores
       const insertQuery = `
       INSERT INTO linksharepoint 
       (Aguascalientes, Austin, Title, Althofen, Fuyong, Jaguariuna, Manaus, PenangP1, PenangP5, Sorocaba, SuHong, SuQian, Tczew, Zhuhai_CEC, Zhuhai_LifeStyle, Total)
